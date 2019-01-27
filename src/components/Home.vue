@@ -33,7 +33,6 @@
 export default {
   data () {
     return {
-      // iCurWeek: 2,
       show: false,
       oPoints: {
         2: 1,
@@ -68,6 +67,7 @@ export default {
             2: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -127,6 +127,7 @@ export default {
             3: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -177,6 +178,7 @@ export default {
             4: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -218,6 +220,7 @@ export default {
             5: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -250,6 +253,7 @@ export default {
             6: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -273,6 +277,7 @@ export default {
             7: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -290,6 +295,7 @@ export default {
             8: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -304,6 +310,7 @@ export default {
             9: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -315,6 +322,7 @@ export default {
             10: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -329,6 +337,7 @@ export default {
             2: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -388,6 +397,7 @@ export default {
             3: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -438,6 +448,7 @@ export default {
             4: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -479,6 +490,7 @@ export default {
             5: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -511,6 +523,7 @@ export default {
             6: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -534,6 +547,7 @@ export default {
             7: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -551,6 +565,7 @@ export default {
             8: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -565,6 +580,7 @@ export default {
             9: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -576,6 +592,7 @@ export default {
             10: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -590,6 +607,7 @@ export default {
             2: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -649,6 +667,7 @@ export default {
             3: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -699,6 +718,7 @@ export default {
             4: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -740,6 +760,7 @@ export default {
             5: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -772,6 +793,7 @@ export default {
             6: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -795,6 +817,7 @@ export default {
             7: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -812,6 +835,7 @@ export default {
             8: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -826,6 +850,7 @@ export default {
             9: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -837,6 +862,7 @@ export default {
             10: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -851,6 +877,7 @@ export default {
             2: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -910,6 +937,7 @@ export default {
             3: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -960,6 +988,7 @@ export default {
             4: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1001,6 +1030,7 @@ export default {
             5: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1033,6 +1063,7 @@ export default {
             6: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1056,6 +1087,7 @@ export default {
             7: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1073,6 +1105,7 @@ export default {
             8: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1087,6 +1120,7 @@ export default {
             9: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1098,6 +1132,7 @@ export default {
             10: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1112,6 +1147,7 @@ export default {
             2: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Caelynn',
                 eliminated: false
@@ -1171,6 +1207,7 @@ export default {
             3: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Caelynn',
                 eliminated: false
@@ -1221,6 +1258,7 @@ export default {
             4: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Caelynn',
                 eliminated: false
@@ -1262,6 +1300,7 @@ export default {
             5: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Caelynn',
                 eliminated: false
@@ -1294,6 +1333,7 @@ export default {
             6: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Caelynn',
                 eliminated: false
@@ -1317,6 +1357,7 @@ export default {
             7: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Caelynn',
                 eliminated: false
@@ -1334,6 +1375,7 @@ export default {
             8: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Caelynn',
                 eliminated: false
@@ -1348,6 +1390,7 @@ export default {
             9: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Caelynn',
                 eliminated: false
@@ -1359,6 +1402,7 @@ export default {
             10: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Caelynn',
                 eliminated: false
@@ -1373,6 +1417,7 @@ export default {
             2: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah B.',
                 eliminated: false
@@ -1432,6 +1477,7 @@ export default {
             3: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah B.',
                 eliminated: false
@@ -1482,6 +1528,7 @@ export default {
             4: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah B.',
                 eliminated: false
@@ -1523,6 +1570,7 @@ export default {
             5: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah B.',
                 eliminated: false
@@ -1555,6 +1603,7 @@ export default {
             6: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah B.',
                 eliminated: false
@@ -1578,6 +1627,7 @@ export default {
             7: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah B.',
                 eliminated: false
@@ -1595,6 +1645,7 @@ export default {
             8: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah B.',
                 eliminated: false
@@ -1609,6 +1660,7 @@ export default {
             9: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Cassie',
                 eliminated: false
@@ -1620,6 +1672,7 @@ export default {
             10: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Cassie',
                 eliminated: false
@@ -1634,6 +1687,7 @@ export default {
             2: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1693,6 +1747,7 @@ export default {
             3: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1743,6 +1798,7 @@ export default {
             4: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1784,6 +1840,7 @@ export default {
             5: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1816,6 +1873,7 @@ export default {
             6: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1839,6 +1897,7 @@ export default {
             7: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1856,6 +1915,7 @@ export default {
             8: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1870,6 +1930,7 @@ export default {
             9: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1881,6 +1942,7 @@ export default {
             10: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1895,6 +1957,7 @@ export default {
             2: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -1954,6 +2017,7 @@ export default {
             3: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -2004,6 +2068,7 @@ export default {
             4: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -2045,6 +2110,7 @@ export default {
             5: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -2077,6 +2143,7 @@ export default {
             6: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -2100,6 +2167,7 @@ export default {
             7: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -2117,6 +2185,7 @@ export default {
             8: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -2131,6 +2200,7 @@ export default {
             9: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Hannah G.',
                 eliminated: false
@@ -2142,6 +2212,7 @@ export default {
             10: {
               bExpand: false,
               score: 0,
+              bScoreAdded: false,
               contestants: [{
                 name: 'Caelynn',
                 eliminated: false
@@ -2167,11 +2238,11 @@ export default {
             that.fCheckAllWeeksAfter(el, iWkAfter, iCurWeek)
           }
         })
-        that.fCountPts(iCurWeek)
+        that.fCountWkPts(iCurWeek)
         resolve()
       })
     },
-    fCountPts: function (iCurWeek) {
+    fCountWkPts: function (iCurWeek) {
       this.aPlayers.forEach(el => {
         let oObjToCom = el.brackets[iCurWeek]
         for (var i = 0; i < oObjToCom.contestants.length; i++) {
@@ -2180,7 +2251,14 @@ export default {
           }
         }
         Object.keys(el.brackets).forEach(function (item) {
-          el.totalScore += el.brackets[item].score
+          if(el.brackets[item].bScoreAdded === false) {
+            el.totalScore = el.totalScore + el.brackets[item].score
+            if(el.brackets[item].score !== 0) {
+              el.brackets[item].bScoreAdded = true
+            }
+          }
+          // el.totalScore = el.totalScore + el.brackets[item].score
+          // el.brackets[item].bScoreAdded = true
         })
       })
     },
@@ -2198,7 +2276,6 @@ export default {
   },
   created: function () {
     this.checkEliminated(2).then(this.checkEliminated(3))
-    // this.checkEliminated(3)
   }
 }
 </script>
