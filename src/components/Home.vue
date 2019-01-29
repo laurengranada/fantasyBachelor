@@ -2289,7 +2289,7 @@ export default {
   padding: 2%;
   .main-ctnr{
     box-sizing: border-box;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background-color: #2c2c2c;
     .main-ctnr-body{
       padding: 1rem;
@@ -2340,6 +2340,7 @@ export default {
       cursor: pointer;
       background-color: #2c2c2c !important;
       .mcs-plyr-hidden{
+        line-height: 50px;
         font-weight: 300;
         color: white !important;
       }
