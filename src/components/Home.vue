@@ -57,6 +57,10 @@ export default {
           'Catherine',
           'Nina',
           'Bri'
+        ],
+        4: [
+          'Courtney',
+          'Tracy'
         ]
       },
       aPlayers: [
@@ -2251,9 +2255,9 @@ export default {
           }
         }
         Object.keys(el.brackets).forEach(function (item) {
-          if(el.brackets[item].bScoreAdded === false) {
+          if (el.brackets[item].bScoreAdded === false) {
             el.totalScore = el.totalScore + el.brackets[item].score
-            if(el.brackets[item].score !== 0) {
+            if (el.brackets[item].score !== 0) {
               el.brackets[item].bScoreAdded = true
             }
           }
@@ -2275,7 +2279,7 @@ export default {
     }
   },
   created: function () {
-    this.checkEliminated(2).then(this.checkEliminated(3))
+    this.checkEliminated(2).then(this.checkEliminated(3)).then(this.checkEliminated(4))
   }
 }
 </script>
