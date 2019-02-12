@@ -61,6 +61,16 @@ export default {
         4: [
           'Courtney',
           'Tracy'
+        ],
+        5: [
+          'Elyse',
+          'Onyeka',
+          'Nicole'
+        ],
+        6: [
+          'Katie',
+          'Sydney',
+          'Demi'
         ]
       },
       aPlayers: [
@@ -2280,6 +2290,7 @@ export default {
   },
   created: function () {
     this.checkEliminated(2).then(this.checkEliminated(3)).then(this.checkEliminated(4))
+    .then(this.checkEliminated(5)).then(this.checkEliminated(6))
   }
 }
 </script>

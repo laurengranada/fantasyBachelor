@@ -1,21 +1,10 @@
-# bachelor
+# Dodge Fantasy Bachelor
 
-## Project setup
-```
-npm install
-```
+### Overview
+Application created to easily keep track of eliminations, points, and weekly brackets for The Bachelor (family fantasy league).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+### Languages/Technologies Used:
+- Vue.js
+- Vuetify
+- Node.js
+- Scoped SASS CSS
