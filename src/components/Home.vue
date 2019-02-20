@@ -71,6 +71,11 @@ export default {
           'Katie',
           'Sydney',
           'Demi'
+        ],
+        7: [
+          'Hannah B.',
+          'Heather',
+          'Kirpa'
         ]
       },
       aPlayers: [
@@ -2290,7 +2295,7 @@ export default {
   },
   created: function () {
     this.checkEliminated(2).then(this.checkEliminated(3)).then(this.checkEliminated(4))
-    .then(this.checkEliminated(5)).then(this.checkEliminated(6))
+    .then(this.checkEliminated(5)).then(this.checkEliminated(6)).then(this.checkEliminated(7))
   }
 }
 </script>
