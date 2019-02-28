@@ -1973,7 +1973,7 @@ export default {
           }
         }, {
           bShow: false,
-          name: 'Grace & Eric',
+          name: 'Grace',
           totalScore: 0,
           brackets: {
             2: {
