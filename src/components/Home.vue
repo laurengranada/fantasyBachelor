@@ -79,6 +79,10 @@ export default {
         ],
         8: [
           'Caelynn'
+        ],
+        9: [
+          'Tayshia',
+          'Hannah G.'
         ]
       },
       aPlayers: [
